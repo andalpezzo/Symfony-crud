@@ -1,0 +1,10 @@
+{{ include('pages/inc/header.html.twig') }}
+<div class="titulo_botonInicio">
+  <a href="{{ path('view_proveedores_route') }}"" class="d-inline btn btn-outline-danger botonInicio">Vuelve al inicio</a>
+  <h3 class=" d-inline title_h3_center">Editando proveedor</h3>
+</div>
+<div class="container">
+{{ form_start(form) }}
+{{ form_widget(form) }}
+{{ form_end(form) }}
+</div>
